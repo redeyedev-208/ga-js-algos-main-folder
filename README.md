@@ -20,6 +20,6 @@ Alternatively you can also run these in the dev console of a browser you are com
 - To setup Jest tests in your own repo do the following steps in order below
   - Create a new repo, and then run `npm init` from the terminal and add the needed information
   - Next run `npm i jest-cli -g` if you don't have it installed
-  - Any test file ensure that it is formatted in `filename.test.js` then navigate to respective directory
+  - Any test file ensure that it is formatted in `filename.test.js` no need to cd into the directory for test as they all run together
   - Run `npm test filename.test.js` and it will pass or fail
   - This is optional and you can just as easily just run the original file with the `code runner` extension
