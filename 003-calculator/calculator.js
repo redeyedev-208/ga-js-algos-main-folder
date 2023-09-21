@@ -25,4 +25,19 @@ function calculator(num1, num2, operator) {
   return result;
 }
 
+// Alternative solution:
+// function calculator(num1, num2, operator) {
+//   if (operator === '+') {
+//     return num1 + num2;
+//   } else if (operator === '-') {
+//     return num1 - num2;
+//   } else if (operator === '*') {
+//     return num1 * num2;
+//   } else if (operator === '/') {
+//     return num1 / num2;
+//   } else {
+//     throw new Error('What is that nonsense, that is not a valid operator');
+//   }
+// }
+
 module.exports = calculator;
