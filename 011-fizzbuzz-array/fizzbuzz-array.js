@@ -12,7 +12,7 @@ function fizzBuzzArray(num) {
   // Loop from 1 to num
   for (let i = 1; i <= num; i++) {
     // If the number is divisible by 3 and 5, push 'FizzBuzz' to the array
-    if (i % 3 === 0 && i % 5 === 0) {
+    if (i % 15 === 0) {
       arr.push('FizzBuzz');
       // If the number is divisible by 3, push 'Fizz' to the array
     } else if (i % 3 === 0) {
