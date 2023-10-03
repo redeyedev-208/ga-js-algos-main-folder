@@ -10,10 +10,14 @@ function findMissingNumber(arr) {
   const n = arr.length + 1;
   const expectedSum = (n * (n + 1)) / 2;
 
-  let actualSum = 0;
-  for (let i = 0; i < arr.length; i++) {
-    actualSum += arr[i];
-  }
+  // let actualSum = 0;
+  // for (let i = 0; i < arr.length; i++) {
+  //   actualSum += arr[i];
+  // }
+
+  // Alternatively we can use reduce acc = sum, curr = current value or number
+  const actualSum = arr.reduce((acc, curr) => acc + curr);
+
   return expectedSum - actualSum;
 }
 
